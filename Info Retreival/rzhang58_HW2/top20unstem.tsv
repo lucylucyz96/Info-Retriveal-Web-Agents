@@ -1,0 +1,61 @@
+query_id	doc_id	title	similarity	relevant
+6 242 notes on geometric weighted check digit verification cosine False
+6 530 a computer method for radiation treatment planning cosine False
+6 695 use of the disk file on stretch cosine False
+6 704 combinatorial of m things taken one at a time two at a time , up to n at a time ( algorithm 161 ) cosine False
+6 705 combinatorial of m things taken n at a time ( algorithm 160 ) cosine False
+6 888 algorithm 160 combinatorial of m things taken n at a time cosine False
+6 1009 solution of combinatorial problems using generating functions on a variable-field computer cosine False
+6 1014 machine controls for analysis of variance cosine False
+6 1186 recursive solution of a class of combinatorial problems : an example cosine False
+6 1543 computer formulation of the equations of motion using tensor notation cosine True
+6 2087 a number system for the permutations cosine False
+6 2187 computer science : a conceptual framework for curriculum planning cosine False
+6 2230 a language for treating geometric patterns in a two-dimensional space cosine False
+6 2389 preliminary report on a system for general space planning cosine False
+6 2671 a note on a combinatorial problem of burnett and coffman cosine False
+6 2721 the digital simulation of river plankton population dynamics cosine False
+6 2753 a heuristic problem solving design system for equipment or furniture layouts cosine False
+6 2826 interactive skeleton techniques for enhancing motion dynamics in key frame animation cosine False
+6 2828 hierarchical geometric models for visible surface algorithms cosine True
+6 3035 a strategic planning methodology for the computing effort in higher education : an empirical evaluation cosine False
+9 1461 discussion summary on operating systems cosine False
+9 1685 gan , a system for generating and analyzing activity networks cosine False
+9 1750 considerations in the design of a multiple computer system with extended core storage cosine False
+9 2372 on the implementation of security measures in information systems cosine True
+9 2578 self-stabilizing systems in spite of distributed control cosine False
+9 2614 arrow to precedence network transformation [ h ] ( algorithm a481 ) cosine False
+9 2621 a high security log-in procedure cosine False
+9 2776 computer networks in higher education : socio-economic-political factors cosine False
+9 2849 ethernet : distributed packet switching for local computer networks cosine False
+9 2870 a lattice model of secure information flow cosine True
+9 2900 some theorems to aid in solving the file allocation problem cosine False
+9 2949 a correctness proof of a topology information main tenance protocol for a distributed computer network cosine False
+9 2969 optimal program and data locations in computer networks cosine False
+9 3068 a model for verification of data security in operating systems cosine True
+9 3082 time , clocks , and the ordering of events in a distributed system cosine False
+9 3111 secure communications over insecure channels cosine True
+9 3137 a methodology for the design of distributed information systems cosine False
+9 3148 high level programming for distributed computing cosine False
+9 3158 secure personal computing in an insecure network cosine True
+9 3174 password security : a case history cosine False
+22 87 a note on a method for generating points uniformly on n-dimensional spheres cosine False
+22 266 fitting spheres by the method of least squares cosine False
+22 1978 the use of interactive graphics to solve numerical problems cosine False
+22 2004 a procedure for generation of three-dimensional half-toned computer graphics presentations cosine False
+22 2152 display procedures cosine False
+22 2188 an approach to the optimum design of computer graphics systems cosine False
+22 2211 scanned-display computer graphics cosine False
+22 2369 hidden lines elimination for a rotating object cosine True
+22 2384 hidden-line plotting program [ j6 ] ( algorithm a420 ) cosine True
+22 2441 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2473 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2564 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2637 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2638 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2674 scan conversion algorithms for a cell organized raster display cosine False
+22 2692 reentrant polygon clipping cosine True
+22 2809 positivity and norms cosine False
+22 2913 the aliasing problem in computer-generated shaded images cosine False
+22 2924 an interactive computer graphics approach to surface representation cosine False
+22 3049 a simply extended and modified batch environment graphical system ( sembegs ) cosine False

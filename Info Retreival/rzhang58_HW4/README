@@ -1,0 +1,4 @@
+You can run the code with python hw4.py <starting-url>
+You will first be prompted to enter how many links you would like to visit. 
+Then you will be prompted to enter relevant keywords used for the relevancy function. If nothing is entered, then nothing is prioritized. 
+The crawl function implements a crawler with a ranking system specified for jhu.edu domain.

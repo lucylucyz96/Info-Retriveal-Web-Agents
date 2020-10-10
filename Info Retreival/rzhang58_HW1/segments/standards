@@ -1,0 +1,125 @@
+
+                     TEXT SEGMENT CLASSIFICATION
+                     ===========================               
+
+The following file describes the major types of text segments that should be
+labelled in this assignment. As this can be a difficult task with a
+great deal of potential ambiguity between classifications, simply do
+something reasonable and don't worry too much about conforming precisely
+to these standards. 
+
+The major purpose of this exercise will be to get practice with Perl
+pattern recognition and observe the complexity of real-world text streams.
+Priority will be placed on the creativity and completeness of the segment 
+classifier, rather than on the raw agreement rate with labelled test data.
+
+Each line in an input file should be tagged with exactly one of the following
+labels (followed by a tab and and then the original text). Optionally, all of 
+the labels may be followed by # marks to more readily distinguish them 
+from the original text.  See the 'segment.data.train' for examples.
+
+
+NNHEAD - Assign this label to every line in the standard
+         netnews/email header, containing such lines as
+         From:, Subject:, Date:, Keywords:, etc.
+
+QUOTED - Assign this label to text from a previous news post 
+         or previous email that is being repeated in the 
+         current document, indicated by special quotation 
+         indicators such as "> ", ": ", "CJK> ", etc. 
+
+         The QUOTED label should also be assigned to the
+         introductory lines of the form:
+
+            In article <3mgrhs$rf3@kei.com>, 
+            awone@panix.com (Allen Wone) wrote: 
+
+
+SIG -   Assign this label to all lines in the final "signature" (or ".sig") 
+        segment of the document, which is often but not always set off by
+        a special marker "--"  (Perl expression /^--\s*/). Single names
+        on a line by themselves at the end of the document (e.g.  "      -- Chris") 
+        may also be labelled SIG.  In some cases it is difficult to determine 
+        whether final text should be considered a SIG or not; use your discretion
+        and expect an unavoidable residual disagreement rate here.
+
+                                        ``'''
+                                        (0 0)
+          +-------------------------00o--(_)--o00-------------------------+
+          |                               |                               |
+          | Rajeev Agarwal                |  "Hanging in there..."        |
+          |                               |                               |
+          | Dept. of Computer Science     | (601) 325-8073 or 2756 (Off.) |
+          | Mississippi State University  | (601) 325-7506 (Lab)          |
+          +-------------------------------+-------------------------------+
+                                       (_) (_)
+
+
+#BLANK# - An empty line or line with only whitespace on it.
+
+TABLE   - Assign this label to text and numbers lined up in columns.
+          This segment is often indicated by the presence multiple
+          characters of line-internal whitespace and shifts from
+          whitespace to text at consistent character positions.
+
+GRAPHICS - Assign this label to non-text segments, typically indicated
+           by predominantly non-alphanumeric characters and large
+           quantities of line-internal whitespace. This label should
+           also be assigned to lines (e.g. =============================)
+           that are segments by themselves.
+
+HEADL   - Assign this label to "headlines", which are typically single lines 
+          of text that are often centered/indented or in all upper case,
+          possibly with a line of underline below. For example:
+
+               REGISTRATION INFORMATION
+               ------------ -----------
+
+          As it is often very difficult to distinguish headlines from
+          short blocks of simple text, simply do your best here. But
+          a good rule of thumb is that headlines tend to be predominantly
+          capitalized and do not end in periods.
+
+ADDRESS - This is an optional classification indicating a section of text
+          containing an address such as:
+
+                  Philippe Blache
+                  2LC - CNRS
+                  1361 route des Lucioles
+                  F-06560  Sophia Antipolis
+                  tel : +33 92.96.73.98
+                  fax : +33 93.65.29.27
+                  e-mail : pb@llaor.unice.fr
+
+          Because of the general difficulty distinguishing addresses from
+          standard text, PTEXT will be accepted as a classification for
+          address segments.
+
+ITEM    - An optional classification, assign this labels to itemizations which
+          are brief texts segments typically indented and marked with a number. 
+          For example:
+
+	     (1)  Southwest likes short-haul markets
+
+	     (2)  There are virtually no significant DEN markets under 400 miles
+
+	     (3)  Continental REALLY REALLY wanted to be like Mike, uh, I mean Southwest
+		
+   	     (4)  Continental abaondons their oldest hub on the misguided notion that
+     		low-cost carriers like WN can't make money between 450-900 miles, so
+     		neither can they.
+
+PTEXT   - Assign this label to plain text, basically standard text typically
+          in paragraph form that is not a TABLE, ITEM, HEADL, QUOTED, etc.
+          as described above.
+
+
+#???#   - Assign this label to segments where the classification is uncertain. 
+          This is slightly preferred to wild guesses, as problematic cases 
+          often must be dealt with specially. 
+
+          An alternate approach for indicating uncertainty would have been 
+          to assign probabilities with each classification.
+
+
+

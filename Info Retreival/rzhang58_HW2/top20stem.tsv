@@ -1,0 +1,61 @@
+query_id	doc_id	title	similarity	relevant
+6 136 a note on the calculation of interest cosine False
+6 242 notes on geometric weighted check digit verification cosine False
+6 356 interest ( algorithm 45 ) cosine False
+6 705 combinatorial of m things taken n at a time ( algorithm 160 ) cosine False
+6 740 interest ( algorithm 45 ) cosine False
+6 1009 solution of combinatorial problems using generating functions on a variable-field computer cosine False
+6 1186 recursive solution of a class of combinatorial problems : an example cosine False
+6 1398 robot data screening : a solution to multivariate type problems in the biological and social sciences cosine False
+6 1517 methods for analyzing data from computer simulation experiments cosine False
+6 1543 computer formulation of the equations of motion using tensor notation cosine True
+6 1755 proceedings of the acm symposium on operating system principles cosine False
+6 2078 representations for space planning cosine True
+6 2187 computer science : a conceptual framework for curriculum planning cosine False
+6 2230 a language for treating geometric patterns in a two-dimensional space cosine False
+6 2389 preliminary report on a system for general space planning cosine False
+6 2671 a note on a combinatorial problem of burnett and coffman cosine False
+6 2753 a heuristic problem solving design system for equipment or furniture layouts cosine False
+6 2826 interactive skeleton techniques for enhancing motion dynamics in key frame animation cosine False
+6 2828 hierarchical geometric models for visible surface algorithms cosine True
+6 3035 a strategic planning methodology for the computing effort in higher education : an empirical evaluation cosine False
+9 1261 modeling and simulation of digital networks cosine False
+9 1611 scheduling project networks cosine False
+9 1685 gan , a system for generating and analyzing activity networks cosine False
+9 1695 plexus-an on-line system for modeling neural networks cosine False
+9 1723 computer construction of project networks cosine False
+9 2197 the merit of regional computing networks cosine False
+9 2371 a system for interprocess communication in a resource sharing computer network cosine False
+9 2372 on the implementation of security measures in information systems cosine True
+9 2454 computational algorithms for closed queueing networks with exponential servers cosine False
+9 2515 minimal event-node network of project precedence relations cosine False
+9 2614 arrow to precedence network transformation [ h ] ( algorithm a481 ) cosine False
+9 2776 computer networks in higher education : socio-economic-political factors cosine False
+9 2864 characteristics of program localities cosine False
+9 2870 a lattice model of secure information flow cosine True
+9 2949 a correctness proof of a topology information main tenance protocol for a distributed computer network cosine False
+9 2951 dynamic response time prediction for computer networks cosine False
+9 2969 optimal program and data locations in computer networks cosine False
+9 3068 a model for verification of data security in operating systems cosine True
+9 3111 secure communications over insecure channels cosine True
+9 3158 secure personal computing in an insecure network cosine True
+22 52 an efficient method for generating uniformly distributed points on the surface on an n-dimensional sphere ( corrigendum ) cosine False
+22 87 a note on a method for generating points uniformly on n-dimensional spheres cosine False
+22 88 an efficient method for generating uniformly distributed points on the surface of an n-dimensional sphere cosine False
+22 122 least squares fitting of a great circle through points on a sphere cosine False
+22 266 fitting spheres by the method of least squares cosine False
+22 1466 discussion summary on graphical languages cosine False
+22 1467 a graphical servicesystem with variable syntax cosine False
+22 1767 a general purpose graphic language cosine False
+22 1829 an interactive graphical display monitor in a batch-processing environment with remote entry cosine False
+22 1978 the use of interactive graphics to solve numerical problems cosine False
+22 2105 an interactive computer system using graphical flowchart input cosine False
+22 2384 hidden-line plotting program [ j6 ] ( algorithm a420 ) cosine True
+22 2441 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2473 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2564 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2637 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2638 hidden-line plotting program ( algorithm r420 ) cosine True
+22 2809 positivity and norms cosine False
+22 2913 the aliasing problem in computer-generated shaded images cosine False
+22 3049 a simply extended and modified batch environment graphical system ( sembegs ) cosine False
